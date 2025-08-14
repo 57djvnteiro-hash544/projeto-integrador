@@ -1,6 +1,6 @@
-import '/.Input.css';
-function EmailImput(){
+
+function EmailInput(){
     return <input className="input-padrao" type='E-mail' placeholder='Digite seu e-mail'/>
 
 }
-export default EmailImput;
+export default EmailInput;

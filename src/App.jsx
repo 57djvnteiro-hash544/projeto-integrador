@@ -4,17 +4,24 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { requestFormReset } from 'react-dom'
 
- import Saudacao from './Components/Saudacao'
- import Rodape from './Components/Rodape'
-  import Alerta from './Alerta'
+ import Saudacao from './Components/Saudacao/Saudacao.jsx'
+ import Rodape from './Components/Rodape/Rodape.jsx'
+ import Alerta from './Components/Alerta/Alerta.jsx'
+ import EmailField from './Components/Email/EmailField.jsx'
+ import LoginButton from './Components/Button/Button.jsx'
+ import PasswordField from './Components/Password/PasswordField.jsx'
  function App(){
   return (
-    <div>teste
+    <div> Olá Daniel
       <Saudacao />
       <Rodape />
       <Alerta />
+      <EmailField />
+      <PasswordField />
+      <LoginButton />
     </div>
   )
  }
 
  export default App;
+ 
