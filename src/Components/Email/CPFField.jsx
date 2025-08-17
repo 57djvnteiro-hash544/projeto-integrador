@@ -1,0 +1,13 @@
+import CPFInput from "../CPFInput/CPFInput";
+
+
+function CPFField(){
+    return (
+        <div>
+        <label>CPF</label>
+        <CPFInput/>
+        </div>
+    );
+}
+
+export default CPFField
