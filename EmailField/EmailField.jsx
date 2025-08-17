@@ -1,13 +1,14 @@
 
-import EmailInput from "../EmailInput/EmailInput";
+import CPFInput from "../CPFInput/CPFInput";
 
 
-function EmailField(){
+function CPFField(){
     return (
         <div>
         <label>CPF</label>
-        <EmailInput/>
+        <CPFInput/>
         </div>
     );
 }
-export default EmailField
+
+export default CPFField
