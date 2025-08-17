@@ -1,4 +1,4 @@
-import CPFInput from "../CPFInput/CPFInput";
+import CPFInput from "./CPFInput";
 
 
 function CPFField(){
@@ -9,5 +9,4 @@ function CPFField(){
         </div>
     );
 }
-
 export default CPFField
