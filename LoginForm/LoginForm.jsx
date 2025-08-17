@@ -1,7 +1,7 @@
 
-import CPFField from "../CPFField/CPFField";
-import LoginButton from "../LoginButton/LoginButton";
-import PasswordField from "../PasswordField/PasswordField";
+import CPFField from "./CPFField";
+import LoginButton from "./LoginButton";
+import PasswordField from "./PasswordField";
 
 
 function LoginForm(){
@@ -17,3 +17,4 @@ function LoginForm(){
 }
 
 export default LoginForm
+
